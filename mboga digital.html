@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mboga Digital</title>
+  <img src="WhatsApp Image 2025 - Copy - Copy.jpg">
+  <style>
+    img {
+      width: 50%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #c2d0bad6;
+    }
+
+    header {
+      display: block;
+      font-size: 20px;
+      background-image: url("copilot_20251001_133326.png");
+      background-color: green;
+      color: yellow;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav button {
+      padding: 10px 20px;
+      margin: 10px;
+      border: none;
+      border-radius: 8px;
+      background-color: green;
+      color: white;
+      cursor: pointer;
+    }
+
+    nav button:hover {
+      background-color: darkgreen;
+    }
+
+    .section {
+      display: none; /* hide all sections */
+      margin-top: 20px;
+      padding: 15px;
+      border: 1px solid #ccc;
+    }
+
+    .active {
+      display: block; /* show only active */
+    }
+
+    footer {
+      background-color: red;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+    /* Product & Mpesa buttons */
+    .button {
+      background: linear-gradient(135deg, #63eda6, #1f8f4c);
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      border: none;
+      border-radius: 50px;
+      padding: 15px 40px;
+      cursor: pointer;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      letter-spacing: 1px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin: 10px 0;
+    }
+
+    .button:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 6px 14px rgba(0,0,0,0.3);
+    }
+
+    .mpesa-logo {
+      width: 25px;
+      height: 25px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mboga Digital</h1>
+    <p>Fresh produce at your fingertips</p>
+    <p>Soko mkononi</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <button onclick="showSection('home')">Home</button>
+    <button onclick="showSection('products')">Products</button>
+    <button onclick="showSection('about')">About</button>
+    <button onclick="showSection('contact')">Contacts</button>
+  </nav>
+
+  <!-- Sections -->
+  <div id="home" class="section active">
+    <h2>Welcome to Home</h2>
+    <h2>mboga digital</h2>
+    <video width="1000" height="500" controls>
+      <source src="WhatsApp Video 2025.1.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div id="products" class="section">
+    <h2>Available Products are managu,spinach,Terere,sagaa,Dodo,kunde,mito and many more</h2>
+    <p>The details of our products are here you can view and choose what best suits your needs</p>
+
+    <p><button class="button">Add to cart Spinach</button></p>
+    <img src="WhatsApp Image 2025  .1.jpg" alt="spinach" width="300" height="200">
+
+    <p><button class="button">Add to cart Terere</button></p>
+    <img src="WhatsApp Image 2025.9.jpg" alt="Terere" width="300" height="200">
+
+    <p><button class="button">Add to cart Maziwa mala</button></p>
+    <img src="WhatsApp Image 2025.11.jpg" alt="Mala" width="300" height="200">
+
+    <p><button class="button">Add to cart Pure Kienyeji Eggs</button></p>
+    <img src="WhatsApp Image 2025.12.jpg" alt="Eggs" width="300" height="200">
+
+    <p><button class="button">Add to cart Pure Kienyeji Chicken</button></p>
+    <img src="WhatsApp Image 2025.13.jpg" alt="Chicken" width="300" height="200">
+
+    <p><button class="button">Add to cart Managu</button></p>
+    <img src="WhatsApp Image 2025.2.jpg" alt="Managu" width="300" height="200">
+
+    <p><button class="button">Add to cart Sagaa</button></p>
+    <img src="WhatsApp Image 2025.8.jpg" alt="Sagaa" width="300" height="200">
+
+    <p><button class="button">Add to cart Mrenda</button></p>
+    <img src="WhatsApp Image 2025.3.jpg" alt="Mrenda" width="300" height="200">
+
+    <p><button class="button">Add to cart Kunde</button></p>
+    <img src="WhatsApp Image 2025.12.jpg" alt="Kunde" width="300" height="200">
+
+    <p><button class="button">Add to cart Mito</button></p>
+    <img src="WhatsApp Image 2025.7..jpg" alt="Mito" width="300" height="200">
+
+    <p><button class="button">Add to cart Sheveve & More</button></p>
+    <img src="WhatsApp Image 2025.10.jpg" alt="Sheveve" width="300" height="200">
+  
+  <!-- Point of Sale --><p>
+  <h3 style="color:red;background-color:rgb(47, 255, 158);display:inline-block;padding:6px;">
+    POINT OF SALE</p>
+  </h3>
+  <p style="color:black;padding:5px;">Enter your details to complete the order:</p>
+  <input type="text" placeholder="Your Name"><br>
+  <input type="number" placeholder="Phone Number"><br>
+  <input type="text" placeholder="Delivery Address"><br>
+  <button class="button">Confirm Order</button>
+
+  <p>
+    <button class="button">
+      <img src="Copilot_20250927_113105.png" alt="mpesa logo" class="mpesa-logo">
+      Pay with M-Pesa
+    </button>
+  </p>
+
+   </div>
+
+  <div id="about" class="section">
+    
+      <p>We are Mboga Digital, an online platform whose key intention is to
+     ensure that you get quality and fresh farm produce.</p>  
+    <p>Due to the fast growing urban life style many people experience challenges in
+    accesing fresh local veges.For that reason we come in handy to offer</p>
+  <p>our great support by delivering a wide variety of fresh vegetables, a seamless customer experience
+<p>and an exceptional ordering and deivery process</p></div>
+  <div id="contact" class="section"><h4>We value freshness and quality of the vegetables.</h4>
+    <h4>Fast and reliable delivery service.</h4>
+    <h4>Fair prices to our beloved customers.</h4>
+    <h4>You can contact us via email;mbogadigital@gmail.com</h4>
+    <h4>Our customer care number: 0721234567</h4>
+  </div>
+
+  <!-- Script for switching -->
+  <script>
+    function showSection(sectionId) {
+      let sections = document.querySelectorAll(".section");
+      sections.forEach(s => s.classList.remove("active"));
+      document.getElementById(sectionId).classList.add("active");
+    }
+  </script>
+
+ 
+  <footer>
+    <p>&copy; 2025 Mboga Digital. All rights reserved.</p>
+    <p>Contact us: email; mbogadigital@gmail.com| Customer Care: 0721234567</p>
+  </footer>
+</body>
+</html>
